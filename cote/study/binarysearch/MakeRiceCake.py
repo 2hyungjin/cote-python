@@ -13,7 +13,7 @@ def search(start, end):
 
     for i in array:
         if i > mid: total += i - mid
-    
+
     if total < m:
         search(start, mid-1)
     else:
