@@ -2,8 +2,6 @@ import heapq
 
 
 def solution(N, road, K):
-    answer = 0
-
     roads = [1e9] * (N + 1)
     graph = [[] for _ in range(N + 1)]
     q = []
